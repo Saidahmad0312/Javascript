@@ -22,15 +22,32 @@
 
 
 
-class TodoList {
-    tasks = []
+// class TodoList {
+//     tasks = []
 
-    addTasks(task){
-        this.tasks.push(task)
-        console.log(this.tasks,task);
-    }
-}
-const task = new TodoList()
-task.addTasks("learning")
-task.addTasks("working")
-task.addTasks("sleeping")
+//     addTasks(task){
+//         this.tasks.push(task)
+//         console.log(this.tasks,task);
+//     }
+// }
+// const task = new TodoList()
+// task.addTasks("learning")
+// task.addTasks("working")
+// task.addTasks("sleeping")
+
+
+
+// class Empleyee{
+//     constructor(ism,familya,yosh,email){
+//         this.ism = ism
+//         this.familya = familya
+//         this.yosh = yosh
+//         this.email = email
+//     }
+//     tostring(){
+//         return `${familya} ${ism} ${yosh} ${email}`
+//     }
+    
+// }
+// const empleyee = new Empleyee("Saidahmad","Abdullayev",18,"abdullayev@gmail.com");
+// console.log(empleyee);
